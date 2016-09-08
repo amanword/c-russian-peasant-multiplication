@@ -10,7 +10,7 @@ main()
 	scanf("%d", &num1);
 	printf("Second number: ");
 	scanf("%d", &num2);
-	puts("\Column 1\Column 2\Column 3");
+	puts("\tColumn 1\tColumn 2tColumn 3");
 	puts("-----------------------");
 	do
 	{
@@ -26,7 +26,7 @@ main()
 	num1 /= 2, num2 *= 2;
 	printf("\n");
 	} while (num1 != 0);
-	printf("\Result: ");
+	printf("\nResult: ");
 	for (i -= 1; i >= 0; i--)
 	{
 		printf("%d", num3[i]);
